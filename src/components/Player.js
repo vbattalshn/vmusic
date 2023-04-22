@@ -15,7 +15,7 @@ export default function Player() {
                 "path": "/artist/mavi-gri"
             }
         ],
-        "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+        "src": "/assets/1_320kbps.mp3",
         "thumbnail": "https://i.scdn.co/image/ab67616d0000b273742cdca02ed0b417879c2698"
     }
 
