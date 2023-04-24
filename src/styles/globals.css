@@ -13,3 +13,25 @@ html{
 aside{
   height: calc(100vh - 75px);
 }
+
+.musicName {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scroll-text .musicName {
+  text-overflow: clip;
+  animation: scroll 5s linear infinite;
+  transform: translateX(100%);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
